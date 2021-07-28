@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:dead_bubble_coral_block",
+          "nbt":"{}"
+      },
+      "title": "The Weatherkeep",
+      "description": "The semi-civilized stormclouds where the weather gets made.",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "past-open": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_open"
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:blaze_rod",
+            "nbt":"{Enchantments:[{}]}"
+        },
+        "title": "The Red Rod",
+        "description": "Find the Red Rod in a well"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:blaze_rod",
+                  "nbt": "{nbt:\"red_rod\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"victordepths:the_victordepths"
+}

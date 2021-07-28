@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:mossy_cobblestone",
+          "nbt":"{}"
+      },
+      "title": "The Uncharted",
+      "description": "The cobwebs on the ceiling of the universe",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "above_nether": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_aweclouds"
+}

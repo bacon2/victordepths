@@ -1,0 +1,216 @@
+{
+  "type": "victordepths:the_underworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -3405167666857333484,
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "seed": -3495872349,
+      "weirdness_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "altitude_noise": {
+        "firstOctave": -8,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "temperature_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "humidity_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "biomes": [
+        {
+          "biome": "victordepths:underworld_open",
+          "parameters": {
+            "altitude": 0.8,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.0
+          }
+        },
+        {
+          "biome": "victordepths:underworld_forest",
+          "parameters": {
+            "altitude": 0.7,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": 0.1
+          }
+        },
+        {
+          "biome": "victordepths:underworld_dust_bowl",
+          "parameters": {
+            "altitude": 0.7,
+            "weirdness": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "humidity": -0.1
+          }
+        }
+      ]
+    },
+    "settings": {
+      "noodle_caves_enabled": true,
+      "ore_veins_enabled": true,
+      "deepslate_enabled": false,
+      "noise_caves_enabled": true,
+      "aquifers_enabled": false,
+      "min_surface_level":-10,
+      "bedrock_roof_position": 128,
+      "bedrock_floor_position": 0,
+      "sea_level": 32,
+      "disable_mob_generation": false,
+      "structures": {
+        "stronghold": {
+          "distance": 0,
+          "count": 0,
+          "spread": 0
+        },
+        "structures": {
+          "village": {
+            "spacing": 5,
+            "separation": 4,
+            "salt": 12345678
+          },
+          "desert_pyramid": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "igloo": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "jungle_pyramid": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "swamp_hut": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "pillager_outpost": {
+            "spacing": 26,
+            "separation": 1,
+            "salt": 87654321
+          },
+          "stronghold": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "monument": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "endcity": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "mansion": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "buried_treasure": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "mineshaft": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "ruined_portal": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "shipwreck": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "ocean_ruin": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "bastion_remnant": {
+            "spacing": 14,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "fortress": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          },
+          "nether_fossil": {
+            "spacing": 32,
+            "separation": 8,
+            "salt": 12345678
+          }
+        }
+      },
+      "noise": {
+        "top_slide": {
+          "target": 120,
+          "size": 3,
+          "offset": 0
+        },
+        "bottom_slide": {
+          "target": 320,
+          "size": 4,
+          "offset": -1
+        },
+        "sampling": {
+          "xz_scale": 1,
+          "xz_factor": 80,
+          "y_scale": 3,
+          "y_factor": 60
+        },
+        "size_vertical": 1,
+        "size_horizontal": 2,
+        "height": 128,
+        "min_y":0,
+        "density_factor": 0.1,
+        "density_offset": 0.01,
+        "random_density_offset": false,
+        "simplex_surface_noise": false,
+        "island_noise_override": false,
+        "amplified": false
+      },
+      "default_block": {
+        "Name": "minecraft:polished_blackstone_bricks"
+      },
+      "default_fluid": {
+        "Name": "minecraft:packed_ice"
+      }
+    }
+  }
+}

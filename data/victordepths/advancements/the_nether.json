@@ -1,0 +1,17 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:netherrack",
+          "nbt":"{}"
+      },
+      "title": "A New Way In",
+      "description": "Tunnle into the nether"
+  },
+  "criteria":
+  {
+      "past_phantoms": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_noobtrap"
+}

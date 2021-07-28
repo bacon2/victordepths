@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:enchanted_book",
+            "nbt":"{Enchantments:[{}]}"
+        },
+        "title": "Cloud Surfer",
+        "description": "Obtain the legendary Rainwalkers"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:leather_boots",
+                  "nbt": "{nbt:\"rainwalkers\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"victordepths:the_weatherkeep"
+}

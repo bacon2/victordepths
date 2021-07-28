@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:polished_blackstone_bricks",
+          "nbt":"{}"
+      },
+      "title": "The Underworld",
+      "description": "It is like the overworld, but under.",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "above_nether": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:victordepths"
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:purple_wool",
+          "nbt":"{}"
+      },
+      "title": "THE FLUFFY FUNPLACE",
+      "description": "A fluffy forest swamp where physics do not apply",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "past_phantoms": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_nether"
+}

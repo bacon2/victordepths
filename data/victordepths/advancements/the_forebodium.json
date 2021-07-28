@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:iron_bars",
+          "nbt":"{}"
+      },
+      "title": "The Forebodium",
+      "description": "No fun allowed here. None.",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "past_phantoms": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_fluffyfunplace"
+}

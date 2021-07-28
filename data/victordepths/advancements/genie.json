@@ -1,0 +1,17 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:splash_potion",
+          "nbt":"{nbt: \"genie\", CustomPotionColor: 16757760, Enchantments: [{}], display: {Name: '{\"text\":\"Genie in a Bottle\", \"italic\":\"false\", \"color\":\"yellow\"}'}}"
+      },
+      "title": "The Magic Bottle",
+      "description": "Trade a green rod to a Rainkeeper in the Weatherkeep"
+  },
+  "criteria":
+  {
+      "summon_genie": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:green_rod"
+}

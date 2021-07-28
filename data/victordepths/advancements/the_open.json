@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:light_gray_stained_glass_pane",
+          "nbt":"{}"
+      },
+      "title": "The Open",
+      "description": "A peaceful getaway or the work of a lazy developer... you decide",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "past_phantoms": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:victordepths"
+}

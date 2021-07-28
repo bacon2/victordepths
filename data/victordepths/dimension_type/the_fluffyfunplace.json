@@ -1,0 +1,19 @@
+{
+    "name": "the_fluffyfunplace",
+    "has_raids": false,
+    "logical_height": 128,
+    "infiniburn": "minecraft:infiniburn_overworld",
+    "ambient_light": 0.5,
+    "piglin_safe": false,
+    "bed_works": false,
+    "respawn_anchor_works": true,
+    "ultrawarm": false,
+    "natural": false,
+    "shrunk": false,
+    "has_skylight": false,
+    "has_ceiling": true,
+    "effects": "minecraft:the_nether",
+    "height": 128,
+    "min_y": 0,
+    "coordinate_scale": 16
+}

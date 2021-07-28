@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:fire_coral_block",
+          "nbt":"{}"
+      },
+      "title": "The Outside",
+      "description": "You have left the universe as we know it",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "use_genie": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_uncharted"
+}

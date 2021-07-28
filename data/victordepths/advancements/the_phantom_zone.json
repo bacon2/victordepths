@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:phantom_membrane",
+          "nbt":"{}"
+      },
+      "title": "The Phantom Zone",
+      "description": "Thou Shalt Not Pass",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "past_phantoms": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_weatherkeep"
+}

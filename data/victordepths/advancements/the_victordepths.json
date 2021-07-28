@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:red_glazed_terracotta",
+          "nbt":"{}"
+      },
+      "title": "The Victordepths",
+      "description": "A wasteland at Earth's center, home to armored mobs and a special villager",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "past_arena": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_arena"
+}

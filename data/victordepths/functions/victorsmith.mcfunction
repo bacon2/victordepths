@@ -1,0 +1,5 @@
+execute if entity @s[nbt={VillagerData:{level:1}}] run data modify entity @s Offers.Recipes set from storage victordepths victorsmith[0]
+execute if entity @s[nbt={VillagerData:{level:2}}] run data modify entity @s Offers.Recipes set from storage victordepths victorsmith[1]
+execute if entity @s[nbt={VillagerData:{level:3}}] run data modify entity @s Offers.Recipes set from storage victordepths victorsmith[2]
+execute if entity @s[nbt={VillagerData:{level:4}}] run data modify entity @s Offers.Recipes set from storage victordepths victorsmith[3]
+execute if entity @s[nbt={VillagerData:{level:5}}] run data modify entity @s Offers.Recipes set from storage victordepths victorsmith[4]

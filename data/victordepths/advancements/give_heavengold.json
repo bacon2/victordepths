@@ -1,0 +1,17 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:raw_gold",
+          "nbt":"{Enchantments:[{}]}"
+      },
+      "title": "Favorite Person Award",
+      "description": "Throw heavengold at a Piglin"
+  },
+  "criteria":
+  {
+      "gave_gold": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_aweclouds"
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:shroomlight",
+          "nbt":"{}"
+      },
+      "title": "The Sanctuary",
+      "description": "A bacon-scented safe haven. Your last stop on the way to victordepths.",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "past_phantoms": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_forebodium"
+}

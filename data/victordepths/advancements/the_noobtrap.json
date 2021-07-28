@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:lava_bucket",
+          "nbt":"{}"
+      },
+      "title": "The Noobtrap",
+      "description": "Never mine straight down...",
+      "frame": "goal"
+  },
+  "criteria":
+  {
+      "past_phantoms": {
+          "trigger": "minecraft:impossible"
+        }
+  },
+  "parent":"victordepths:the_underworld"
+}

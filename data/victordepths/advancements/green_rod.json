@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:blaze_rod",
+            "nbt":"{Enchantments:[{}]}"
+        },
+        "title": "The Green Rod",
+        "description": "Trade the Red Rod for the Green Rod"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:blaze_rod",
+                  "nbt": "{nbt:\"green_rod\"}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"victordepths:find_victorsmith"
+}
