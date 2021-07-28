@@ -1,0 +1,92 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 6,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:trident",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag":"{CustomPotionEffects: [{Duration: 9999, Id: 18, Amplifier: 5s}, {Duration: 9999, Id: 11, Amplifier: 5s}], CustomPotionColor: 0, display: {Name: '{\"text\":\"Potion of Pacifism\", \"italic\":\"false\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:zombie_villager_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag":"{StoredEnchantments: [{lvl: 5s, id: \"minecraft:efficiency\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

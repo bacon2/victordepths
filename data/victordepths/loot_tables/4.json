@@ -1,0 +1,92 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 6,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:totem_of_undying",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag":"{CustomPotionEffects: [{Duration: 999, Id: 11, Amplifier: 4s}], CustomPotionColor: 16777215, display: {Name: '{\"text\":\"49 Second Immortality\", \"italic\":\"false\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:end_crystal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag":"{StoredEnchantments: [{lvl: 3s, id: \"minecraft:unbreaking\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:skeleton_horse_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12,
+                                "type": "minecraft:uniform"
+                              }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

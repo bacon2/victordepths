@@ -1,0 +1,20 @@
+[
+    {
+        "condition":"minecraft:location_check",
+        "predicate":{
+            "biome":"apocalypse_overwrite:modern_city"
+        }
+    },
+    {
+        "condition":"minecraft:location_check",
+        "predicate":{
+            "biome":"apocalypse_overwrite:modern_small_town"
+        }
+    },
+    {
+        "condition":"minecraft:location_check",
+        "predicate":{
+            "biome":"apocalypse_overwrite:modern_small_town_desert"
+        }
+    }
+]
