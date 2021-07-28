@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "victordepths:underworld_open_buildings",
-    "size": 7
-  },
-  "type": "bastion_remnant"
-}

@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "victordepths:sanctuary_roads",
-    "size": 7
-  },
-  "type": "bastion_remnant"
-}

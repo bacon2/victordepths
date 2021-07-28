@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "victordepths:weatherkeep_buildings",
-    "size": 7
-  },
-  "type": "village"
-}

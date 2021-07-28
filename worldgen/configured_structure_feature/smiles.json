@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "victordepths:smiles",
-    "size": 7
-  },
-  "type": "bastion_remnant"
-}
