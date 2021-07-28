@@ -1,0 +1,146 @@
+{
+  "starts": [
+    "victordepths:underworld_forest_buildings"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 50,
+        "minCount": 4,
+        "maxCount": 8
+      }
+    ],
+    "misc": [],
+    "water_creature": [],
+    "creature": [
+      {
+        "type": "minecraft:zombie_horse",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:zombified_piglin",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:cave_spider",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:ghast",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "creature_spawn_probability": 0.01,
+  "player_spawn_friendly": false,
+  "surface_builder": "victordepths:underworld_dust",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ],
+    "liquid": []
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "victordepths:ore_soul_coal",
+      "victordepths:ore_underworld_iron",
+      "victordepths:ore_underworld_diamond"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "victordepths:acacia_fungi"
+    ]
+  ],
+  "scale": 0.3,
+  "temperature": 0.2,
+  "temperature_modifier": "none",
+  "downfall": 0.3,
+  "effects": {
+    "foliage_color": 7893298,
+    "sky_color": 0,
+    "grass_color": 5271858,
+    "grass_color_modifier": "none",
+    "mood_sound": {
+      "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
+      "tick_delay": 4000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_chance": 0.005
+    },
+    "music": {
+      "sound": "minecraft:music_disc.11",
+      "min_delay": 5000,
+      "max_delay": 9000,
+      "replace_current_music": true
+    },
+    "fog_color": 12027442,
+    "water_color": 920418,
+    "water_fog_color": 1991810,
+    "particle": {
+      "probability": 0.2,
+      "options": {
+        "type": "minecraft:ash"
+      }
+    }
+  },
+  "precipitation": "none",
+  "category": "none",
+  "depth": -0.3
+}

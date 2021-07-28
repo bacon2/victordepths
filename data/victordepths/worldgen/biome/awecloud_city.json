@@ -1,0 +1,86 @@
+{
+  "starts": [
+    "victordepths:awecloud_city"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [
+    ],
+    "misc": [],
+    "water_creature": [
+    ],
+    "creature": [
+    ],
+    "monster": [
+      {
+        "type": "minecraft:pig",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 3
+      }    
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:pig": {
+      "energy_budget": 0.5,
+      "charge": 3.0
+    }
+  },
+  "creature_spawn_probability": 0.01,
+  "player_spawn_friendly": false,
+  "surface_builder": "victordepths:awecloud_ground",
+  "carvers": {
+    "air": [],
+    "liquid": []
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "victordepths:ore_heaven_gold",
+      "victordepths:ore_awecloud_birch",
+      "victordepths:ore_awecloud_water",
+      "victordepths:ore_awecloud_leaves"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+    ]
+  ],
+  "scale": 40.0,
+  "temperature": 0.2,
+  "temperature_modifier": "none",
+  "downfall": 0.3,
+  "effects": {
+    "foliage_color": 65280,
+    "sky_color": 16777180,
+    "grass_color": 65280,
+    "grass_color_modifier": "none",
+    "mood_sound": {
+      "sound": "minecraft:block.beacon.power_select",
+      "tick_delay": 300,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "music":
+    {
+      "sound": "minecraft:music_disc.cat",
+      "min_delay": 1000,
+      "max_delay": 1500,
+      "replace_current_music": true
+    },
+    "fog_color": 16777215,
+    "water_color": 11847935,
+    "water_fog_color": 11847935
+  },
+  "precipitation": "none",
+  "category": "none",
+  "depth": -0.3
+}

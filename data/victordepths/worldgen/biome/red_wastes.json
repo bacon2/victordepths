@@ -1,0 +1,111 @@
+{
+  "starts": [
+    "minecraft:nether_fossil",
+    "victordepths:red_wastes_buildings",
+    "victordepths:red_wastes_huts"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "misc": [],
+    "water_creature": [
+    ],
+    "creature": [
+      {
+        "type": "minecraft:fox",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {
+
+  },
+  "creature_spawn_probability": 0.01,
+  "player_spawn_friendly": false,
+  "surface_builder": "victordepths:red_wastes",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ],
+    "liquid": []
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "victordepths:ore_victordepths_iron",
+      "victordepths:ore_victordepths_lapis",
+      "victordepths:ore_victordepths_diamond",
+      "victordepths:ore_victordepths_gold",
+      "victordepths:ore_victordepths_acacia_wood",
+      "victordepths:ore_victordepths_dirt",
+      "victordepths:ore_victordepths_blackstone",
+      "victordepths:ore_victordepths_light_gray_terracotta"
+
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "victordepths:patch_red_glazed_terracotta",
+      "victordepths:patch_victortart"
+    ],
+    []
+  ],
+  "scale": 0.1,
+  "temperature": 1.0,
+  "temperature_modifier": "none",
+  "downfall": 0.3,
+  "effects": {
+    "foliage_color": 6566400,
+    "grass_color": 13120000,
+    "sky_color": 13166335,
+    "grass_color_modifier": "none",
+    "music": {
+      "sound": "minecraft:music_disc.stal",
+      "min_delay": 1000,
+      "max_delay": 2000,
+      "replace_current_music": true
+    },
+    "fog_color": 13166335,
+    "water_color": 6553600,
+    "water_fog_color": 16711680,
+    "particle": {
+      "probability": 0.2,
+      "options": {
+        "type": "minecraft:mycelium"
+      }
+    }
+  },
+  "precipitation": "none",
+  "category": "none",
+  "depth": 0.4
+}

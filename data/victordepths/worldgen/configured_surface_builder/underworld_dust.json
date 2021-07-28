@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:coarse_dirt"
+    },
+    "under_material": {
+      "Name": "minecraft:coarse_dirt"
+    },
+    "underwater_material": {
+      "Name": "minecraft:nether_quartz_ore"
+    }
+  },
+  "type": "default"
+}

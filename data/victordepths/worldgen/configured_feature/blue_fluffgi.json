@@ -1,0 +1,29 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "hat_state": {
+          "Name": "minecraft:blue_wool"
+        },
+        "decor_state": {
+          "Name": "minecraft:lapis_ore"
+        },
+        "planted": false,
+        "valid_base_block": {
+          "Name": "minecraft:light_blue_wool"
+        },
+        "stem_state": {
+          "Name": "minecraft:blue_wool"
+        }
+      },
+      "type": "minecraft:huge_fungus"
+    },
+    "decorator": {
+      "config": {
+        "count": 8
+      },
+      "type": "minecraft:count_multilayer"
+    }
+  },
+  "type": "minecraft:decorated"
+}

@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:pink_wool"
+    },
+    "under_material": {
+      "Name": "minecraft:purple_wool"
+    },
+    "underwater_material": {
+      "Name": "minecraft:soul_sand"
+    }
+  },
+  "type": "default"
+}

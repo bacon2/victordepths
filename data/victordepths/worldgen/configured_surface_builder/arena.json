@@ -1,0 +1,33 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:target",
+      "Properties": {
+        "power": "0"
+      }
+    },
+    "under_material": {
+      "Name": "minecraft:red_mushroom_block",
+      "Properties": {
+        "down": "false",
+        "up": "false",
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    "underwater_material": {
+      "Name": "minecraft:red_mushroom_block",
+      "Properties": {
+        "down": "false",
+        "up": "false",
+        "north": "false",
+        "east": "false",
+        "south": "false",
+        "west": "false"
+      }
+    }
+  },
+  "type": "default"
+}

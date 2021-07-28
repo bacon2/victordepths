@@ -1,0 +1,35 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "hat_state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:spruce_wood"
+        },
+        "decor_state": {
+          "Name": "minecraft:cobweb"
+        },
+        "planted": false,
+        "valid_base_block": {
+          "Name": "minecraft:blackstone"
+        },
+        "stem_state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:polished_basalt"
+        }
+      },
+      "type": "minecraft:huge_fungus"
+    },
+    "decorator": {
+      "config": {
+        "count": 8
+      },
+      "type": "minecraft:count_multilayer"
+    }
+  },
+  "type": "minecraft:decorated"
+}

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "targets": [
+              {
+                "target": {
+                  "tag": "victordepths:base_stone_victordepths",
+                  "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                  "Name": "minecraft:lapis_ore"
+                }
+              }
+            ],
+            "discard_chance_on_air_exposure": 0.0,
+            "size": 7
+          },
+          "type": "minecraft:ore"
+        },
+        "decorator": {
+          "config": {
+            "height": {
+              "type": "minecraft:uniform",
+              "min_inclusive": {
+                "type": "minecraft:constant",
+                "below_top":256
+              },
+              "max_inclusive": {
+                "type": "minecraft:constant",
+                "below_top":220
+              }
+            }
+          },
+          "type": "minecraft:range"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {},
+      "type": "minecraft:square"
+    }
+  },
+  "type": "minecraft:decorated"
+}
