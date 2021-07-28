@@ -1,0 +1,61 @@
+{
+  "name": "victordepths:weatherkeep_buildings",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "victordepths:bowl",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "victordepths:ice_storehouse",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "victordepths:trader_hotel",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "victordepths:rain_library",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "victordepths:lightning_hand",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

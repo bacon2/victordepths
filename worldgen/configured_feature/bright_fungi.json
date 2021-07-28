@@ -1,0 +1,35 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "hat_state": {
+          "Name": "minecraft:shroomlight"
+        },
+        "decor_state": {
+          "Name": "minecraft:nether_wart_block"
+        },
+        "planted": false,
+        "valid_base_block": {
+          "Name": "minecraft:grass_block",
+          "Properties":{
+            "snowy":"false"
+          }
+        },
+        "stem_state": {
+          "Name": "minecraft:stripped_crimson_stem",
+          "Properties":{
+            "axis":"y"
+          }
+        }
+      },
+      "type": "minecraft:huge_fungus"
+    },
+    "decorator": {
+      "config": {
+        "count": 8
+      },
+      "type": "minecraft:count_multilayer"
+    }
+  },
+  "type": "minecraft:decorated"
+}

@@ -1,0 +1,95 @@
+{
+  "starts": [
+    "victordepths:weatherkeep_buildings"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [
+      {
+        "type": "minecraft:wandering_trader",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "misc": [],
+    "water_creature": [],
+    "creature": [
+      {
+        "type": "minecraft:skeleton_horse",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:illusioner",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:wandering_trader": {
+      "energy_budget": 1.0,
+      "charge": 3.0
+    },
+    "minecraft:illusioner": {
+      "energy_budget": 1.0,
+      "charge": 0.3
+    }
+  },
+  "creature_spawn_probability": 0.01,
+  "player_spawn_friendly": false,
+  "surface_builder": "victordepths:cloud",
+  "carvers": {
+    "air": [],
+    "liquid": []
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "scale": 0.3,
+  "temperature": 0.2,
+  "temperature_modifier": "none",
+  "downfall": 0.3,
+  "effects": {
+    "foliage_color": 9226340,
+    "sky_color": 1836140,
+    "grass_color": 11852980,
+    "grass_color_modifier": "none",
+    "mood_sound": {
+      "sound": "minecraft:entity.lightning_bolt.thunder",
+      "tick_delay": 100,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:weather.rain",
+      "tick_chance": 0.1
+    },
+    "particle": {
+      "probability": 0.02,
+      "options": {
+        "type": "minecraft:falling_water"
+      }
+    },
+    "fog_color": 263248,
+    "water_color": 4445678,
+    "water_fog_color": 1991810
+  },
+  "precipitation": "rain",
+  "category": "none",
+  "depth": 0.0
+}

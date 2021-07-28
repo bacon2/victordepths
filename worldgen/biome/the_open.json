@@ -1,0 +1,74 @@
+{
+  "starts": [
+  ],
+  "spawners": {
+    "water_ambient": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 15,
+        "minCount": 8,
+        "maxCount": 16
+      }
+    ],
+    "ambient": [
+    ],
+    "misc": [],
+    "water_creature": [
+    ],
+    "creature": [
+    ],
+    "monster": [
+    ]
+  },
+  "spawn_costs": {},
+  "creature_spawn_probability": 0.01,
+  "player_spawn_friendly":false,
+  "surface_builder": "minecraft:grass",
+  "carvers": {
+      "air": [
+      ],
+      "liquid":[
+      ]
+  },
+  "features": [
+    [],
+    [
+    ],
+    [],
+    [
+    ],
+    [],
+    [],
+    [
+    ],
+    [
+    ],
+    [
+    ],
+    [
+    ]
+  ],
+  "scale": 0.3,
+  "temperature": -1.0,
+  "temperature_modifier": "none",
+  "downfall": 0.3,
+  "effects": {
+      "foliage_color": 9226340,
+      "sky_color": 1477055,
+      "grass_color": 11852980,
+      "grass_color_modifier": "none",
+      "fog_color": 16777215,
+      "water_color": 4445678,
+      "water_fog_color": 1991810,
+      "music":
+    {
+      "sound": "minecraft:music.creative",
+      "min_delay": 1000,
+      "max_delay": 2000,
+      "replace_current_music": true
+    }
+  },
+  "precipitation": "snow",
+  "category": "none",
+  "depth": 0.0
+}

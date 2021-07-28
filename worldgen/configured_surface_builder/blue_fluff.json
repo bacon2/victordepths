@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:light_blue_wool"
+    },
+    "under_material": {
+      "Name": "minecraft:purple_wool"
+    },
+    "underwater_material": {
+      "Name": "minecraft:cyan_wool"
+    }
+  },
+  "type": "default"
+}

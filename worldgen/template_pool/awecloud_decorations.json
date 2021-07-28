@@ -1,0 +1,50 @@
+{
+  "name": "victordepths:awecloud_buildings",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "victordepths:awecloud_snowman",
+        "processors": {
+          "processors": []
+        },
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "victordepths:awecloud_dark_oak",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "victordepths:awecloud_fountain",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "victordepths:awecloud_waterfall",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

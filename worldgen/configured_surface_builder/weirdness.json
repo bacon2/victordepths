@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:end_gateway"
+    },
+    "under_material": {
+      "Name": "minecraft:end_gateway"
+    },
+    "underwater_material": {
+      "Name": "minecraft:end_gateway"
+    }
+  },
+  "type": "default"
+}

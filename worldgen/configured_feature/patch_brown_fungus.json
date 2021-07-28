@@ -1,0 +1,78 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "can_replace": true,
+            "project": true,
+            "need_water": false,
+            "xspread": 7,
+            "yspread": 3,
+            "zspread": 7,
+            "whitelist": [
+              {
+                "Name": "minecraft:rooted_dirt"
+              },
+              {
+                "Name": "minecraft:brown_mushroom_block",
+                "Properties": {
+                  "west": "true",
+                  "up": "false",
+                  "south": "true",
+                  "north": "true",
+                  "east": "true",
+                  "down": "false"
+                }
+              }
+            ],
+            "blacklist": [],
+            "tries": 128,
+            "state_provider": {
+              "state": {
+                "Name": "minecraft:brown_mushroom_block",
+                "Properties": {
+                  "west": "true",
+                  "up": "false",
+                  "south": "true",
+                  "north": "true",
+                  "east": "true",
+                  "down": "false"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "block_placer": {
+              "type": "minecraft:column_placer",
+              "size":2
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {
+                "heightmap":"OCEAN_FLOOR"
+              },
+              "type": "minecraft:heightmap_spread_double"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 8
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:calcite"
+    },
+    "under_material": {
+      "Name": "minecraft:snow_block"
+    },
+    "underwater_material": {
+      "Name": "minecraft:snow_block"
+    }
+  },
+  "type": "default"
+}
